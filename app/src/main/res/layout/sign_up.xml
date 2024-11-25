@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/sign_up"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToOutline="true"
+        android:background="#090E05"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/unsplash_ws"
+        android:layout_width="0dp"
+        android:layout_height="411dp"
+        android:src="@drawable/unsplash_ws"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/rectangle_1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/sign_up_text"
+        android:layout_width="124dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/sign_up"
+        android:textAppearance="@style/sign_up"
+        android:gravity="top"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/enter_email"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_email"
+        android:textAppearance="@style/enter_email"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/sign_up_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_2"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:src="@drawable/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/enter_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/enter_passw"
+        android:layout_width="116dp"
+        android:layout_height="26dp"
+        android:text="@string/enter_passw"
+        android:textAppearance="@style/enter_passw"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_3"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:src="@drawable/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/enter_passw"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/re_enter_pa"
+        android:layout_width="139dp"
+        android:layout_height="26dp"
+        android:text="@string/re_enter_pa"
+        android:textAppearance="@style/re_enter_pa"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/rectangle_4"
+        android:layout_width="343dp"
+        android:layout_height="48dp"
+        android:src="@drawable/rectangle_2"
+        app:layout_constraintTop_toBottomOf="@id/re_enter_pa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/button"
+        android:layout_width="343dp"
+        android:layout_height="47dp"
+        android:background="@drawable/button"
+        app:layout_constraintTop_toBottomOf="@id/rectangle_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="62dp"
+        android:layout_height="27dp"
+        android:text="@string/next"
+        android:textAppearance="@style/next"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/already_hav"
+        android:layout_width="209dp"
+        android:layout_height="24dp"
+        android:text="@string/already_hav"
+        android:textAppearance="@style/already_hav"
+        android:gravity="top"
+        app:layout_constraintTop_toBottomOf="@id/next"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

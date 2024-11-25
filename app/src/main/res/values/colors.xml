@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+        <!--    white -->
+        <color name="md_white_1000">#ffffff</color>
+        <color name="md_white_1000_0">#00ffffff</color>
+        <color name="md_white_1000_05">#0cffffff</color>
+        <color name="md_white_1000_10">#1affffff</color>
+        <color name="md_white_1000_15">#22ffffff</color>
+        <color name="md_white_1000_20">#33ffffff</color>
+        <color name="md_white_1000_25">#40ffffff</color>
+        <color name="md_white_1000_50">#80ffffff</color>
+        <color name="md_white_1000_60">#99ffffff</color>
+        <color name="md_white_1000_75">#c0ffffff</color>
+
+
+        <!--    black -->
+        <color name="md_black_1000_4">#04000000</color>
+        <color name="md_black_1000_10">#1a000000</color>
+        <color name="md_black_1000_15">#26000000</color>
+        <color name="md_black_1000_20">#33000000</color>
+        <color name="md_black_1000_25">#40000000</color>
+        <color name="md_black_1000_50">#80000000</color>
+        <color name="md_black_1000_75">#c0000000</color>
+        <color name="md_black_1000">#000000</color>
+
+        <color name="taru_green_0">#000000</color>
+        <color name="taru_green_10">#002110</color>
+        <color name="taru_green_20">#003920</color>
+        <color name="taru_green_25">#004528</color>
+        <color name="taru_green_30">#005230</color>
+        <color name="taru_green_35">#005f38</color>
+        <color name="taru_green_40">#006d41</color>
+        <color name="taru_green_50">#008953</color>
+        <color name="taru_green_60">#00a666</color>
+        <color name="taru_green_70">#2ac27c</color>
+        <color name="taru_green_80">#50df96</color>
+        <color name="taru_green_90">#70fcb0</color>
+        <color name="taru_green_95">#c1ffd5</color>
+        <color name="taru_green_98">#e9ffed</color>
+        <color name="taru_green_99">#f5fff4</color>
+        <color name="taru_green_100">#ffffff</color>
+
+
+        <color name="taru_yellow_0">#000000</color>
+        <color name="taru_yellow_10">#241a00</color>
+        <color name="taru_yellow_20">#3d2e00</color>
+        <color name="taru_yellow_25">#4b3900</color>
+        <color name="taru_yellow_30">#594400</color>
+        <color name="taru_yellow_35">#674f00</color>
+        <color name="taru_yellow_40">#755b00</color>
+        <color name="taru_yellow_50">#937300</color>
+        <color name="taru_yellow_60">#b18c0e</color>
+        <color name="taru_yellow_70">#cfa62e</color>
+        <color name="taru_yellow_80">#ecc148</color>
+        <color name="taru_yellow_90">#ffdf91</color>
+        <color name="taru_yellow_95">#ffefcf</color>
+        <color name="taru_yellow_98">#fff8f1</color>
+        <color name="taru_yellow_99">#fffbff</color>
+        <color name="taru_yellow_100">#ffffff</color>
+
+        <color name="taru_blue_0">#000000</color>
+        <color name="taru_blue_10">#04006d</color>
+        <color name="taru_blue_20">#0c04a8</color>
+        <color name="taru_blue_25">#1e1fb1</color>
+        <color name="taru_blue_30">#2d2fbc</color>
+        <color name="taru_blue_35">#3a3ec7</color>
+        <color name="taru_blue_40">#474cd4</color>
+        <color name="taru_blue_50">#6167ee</color>
+        <color name="taru_blue_60">#7e84ff</color>
+        <color name="taru_blue_70">#9fa3ff</color>
+        <color name="taru_blue_80">#c0c1ff</color>
+        <color name="taru_blue_90">#e1e0ff</color>
+        <color name="taru_blue_95">#f1efff</color>
+        <color name="taru_blue_98">#fbf8ff</color>
+        <color name="taru_blue_99">#fffbff</color>
+        <color name="taru_blue_100">#ffffff</color>
+
+        <color name="taru_neutral_0">#000000</color>
+        <color name="taru_neutral_10">#161d18</color>
+        <color name="taru_neutral_20">#2a322c</color>
+        <color name="taru_neutral_25">#353d37</color>
+        <color name="taru_neutral_30">#414942</color>
+        <color name="taru_neutral_35">#4c544e</color>
+        <color name="taru_neutral_40">#586059</color>
+        <color name="taru_neutral_50">#717972</color>
+        <color name="taru_neutral_60">#8a938b</color>
+        <color name="taru_neutral_70">#a5ada5</color>
+        <color name="taru_neutral_80">#c0c9c0</color>
+        <color name="taru_neutral_90">#dce5dc</color>
+        <color name="taru_neutral_95">#eaf3ea</color>
+        <color name="taru_neutral_98">#f3fcf2</color>
+        <color name="taru_neutral_99">#f6fff5</color>
+        <color name="taru_neutral_100">#ffffff</color>
+
+        <color name="taru_error_0">#000000</color>
+        <color name="taru_error_10">#410002</color>
+        <color name="taru_error_20">#690005</color>
+        <color name="taru_error_25">#7e0007</color>
+        <color name="taru_error_30">#93000a</color>
+        <color name="taru_error_35">#a80710</color>
+        <color name="taru_error_40">#ba1a1a</color>
+        <color name="taru_error_50">#de3730</color>
+        <color name="taru_error_60">#ff5449</color>
+        <color name="taru_error_70">#ff897d</color>
+        <color name="taru_error_80">#ffb4ab</color>
+        <color name="taru_error_90">#ffdad6</color>
+        <color name="taru_error_95">#ffedea</color>
+        <color name="taru_error_98">#fff8f7</color>
+        <color name="taru_error_99">#fffbff</color>
+        <color name="taru_error_100">#ffffff</color>
+
+        <color name="chart_high">#FF971E</color>
+        <color name="chart_low">#FFE34D</color>
+
+
+    <!--    add -->
+    <color name="seed">#34C982</color>
+    <color name="md_theme_light_primary">#006D41</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#70FCB0</color>
+    <color name="md_theme_light_onPrimaryContainer">#002110</color>
+    <color name="md_theme_light_secondary">#755B00</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFDF91</color>
+    <color name="md_theme_light_onSecondaryContainer">#241A00</color>
+    <color name="md_theme_light_tertiary">#5256A9</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#E1E0FF</color>
+    <color name="md_theme_light_onTertiaryContainer">#090764</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#F7FFEE</color>
+    <color name="md_theme_light_onBackground">#002200</color>
+    <color name="md_theme_light_surface">#F0F4ED</color>
+    <color name="md_theme_light_onSurface">#121712</color>
+    <color name="md_theme_light_surfaceVariant">#DCE5DC</color>
+    <color name="md_theme_light_onSurfaceVariant">#414942</color>
+    <color name="md_theme_light_outline">#717972</color>
+    <color name="md_theme_light_inverseOnSurface">#CAFFB9</color>
+    <color name="md_theme_light_inverseSurface">#003A01</color>
+    <color name="md_theme_light_inversePrimary">#50DF96</color>
+    <color name="md_theme_light_shadow">#000000</color>
+    <color name="md_theme_light_surfaceTint">#006D41</color>
+    <color name="md_theme_light_outlineVariant">#C0C9C0</color>
+    <color name="md_theme_light_scrim">#000000</color>
+    <color name="md_theme_dark_primary">#50DF96</color>
+    <color name="md_theme_dark_onPrimary">#003920</color>
+    <color name="md_theme_dark_primaryContainer">#005230</color>
+    <color name="md_theme_dark_onPrimaryContainer">#70FCB0</color>
+    <color name="md_theme_dark_secondary">#ECC148</color>
+    <color name="md_theme_dark_onSecondary">#3D2E00</color>
+    <color name="md_theme_dark_secondaryContainer">#594400</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFDF91</color>
+    <color name="md_theme_dark_tertiary">#C0C1FF</color>
+    <color name="md_theme_dark_onTertiary">#232478</color>
+    <color name="md_theme_dark_tertiaryContainer">#3A3D8F</color>
+    <color name="md_theme_dark_onTertiaryContainer">#E1E0FF</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#002200</color>
+    <color name="md_theme_dark_onBackground">#B0F49E</color>
+    <color name="md_theme_dark_surface">#0F140F</color>
+    <color name="md_theme_dark_onSurface">#D0E9CA</color>
+    <color name="md_theme_dark_surfaceVariant">#414942</color>
+    <color name="md_theme_dark_onSurfaceVariant">#C0C9C0</color>
+    <color name="md_theme_dark_outline">#8A938B</color>
+    <color name="md_theme_dark_inverseOnSurface">#002200</color>
+    <color name="md_theme_dark_inverseSurface">#B0F49E</color>
+    <color name="md_theme_dark_inversePrimary">#006D41</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#50DF96</color>
+    <color name="md_theme_dark_outlineVariant">#414942</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+
+    <color name="colorBack">@color/white</color>
+    <color name="colorSurface">@color/md_theme_light_surface</color>
+    <color name="colorShadow">@color/md_black_1000</color>
+    <color name="colorOnSurface">@color/md_theme_light_onSurface</color>
+    <color name="colorCard">@color/white</color>
+
+</resources>

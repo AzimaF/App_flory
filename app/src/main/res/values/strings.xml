@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Florys</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_chat">Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_water">Water</string>
+
+    <!-- spalsh screen -->
+    <string name="florys">FLORYS</string>
+
+    <!-- sign in -->
+    <string name="sign_up">Sign up</string>
+    <string name="enter_email_hint">Masukkan email Anda</string>
+    <string name="enter_password_hint">Masukkan kata sandi Anda</string>
+    <string name="re_enter_password_hint">Masukkan ulang kata sandi Anda</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_passw">Enter Password</string>
+    <string name="re_enter_pa">Re-enter Password</string>
+    <string name="next">Sign up</string>
+    <string name="already_hav">Already have an account? Sign in</string>
+
+    <!-- home -->
+    <string name="hi">Hi</string>
+    <string name="search">
+        Search
+    </string>
+    <string name="know_about_">
+        Know about Flowers
+    </string>
+    <string name="recent_arti">
+        Recent Articles
+    </string>
+
+    <!-- flower detail -->
+    <string name="image_cover">Image Cover</string>
+    <string name="lorem_ipsum">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dictum egestas dolor egestas. Netus pharetra, rhoncus tortor duis sit. In ipsum diam orci morbi ultricies massa amet. Aenean urna phasellus eget vestibulum, vulputate dui auctor sed est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis dictum egestas dolor egestas.
+    </string>
+
+    <!-- adapter -->
+    <string name="thumbnail_article">article thumbnail\n</string>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.flower.FlowerActivity"
+    android:background="#090E05">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:background="#00000000"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/white"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleCollapseMode="scale">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:contentDescription="@string/image_cover"
+                android:fitsSystemWindows="true"
+                android:scaleType="center"
+                app:layout_collapseMode="parallax"
+                tools:src="@drawable/unsplash_ws" />
+
+            <ImageView
+                android:id="@+id/flower_image"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/rose_1"
+                android:layout_gravity="center_horizontal|top"
+                app:layout_collapseMode="none"
+                android:elevation="8dp"/>
+
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@android:color/transparent"
+                app:layout_collapseMode="pin" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/title_art"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:text="@string/app_name"
+                    android:textAppearance="@style/title_1"
+                    android:gravity="center"
+                    android:layout_gravity="center" />
+
+                <TextView
+                    android:id="@+id/subtitile_art"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/know_about_"
+                    android:textAppearance="@style/title_2"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/article_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:textAppearance="@style/title_2"
+                android:text="@string/lorem_ipsum"
+                android:gravity="top" />
+
+            <TextView
+                android:id="@+id/pictures_of"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="34dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/florys"
+                android:textAppearance="@style/title_1"
+                android:gravity="top" />
+
+            <!-- Container for pictures to align horizontally -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="34dp"
+                android:gravity="center">
+
+                <View
+                    android:id="@+id/picture_1"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:background="@drawable/rose_1" />
+
+                <View
+                    android:id="@+id/picture_2"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="24dp"
+                    android:background="@drawable/rose_1" />
+
+                <View
+                    android:id="@+id/picture_3"
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:layout_marginStart="24dp"
+                    android:background="@drawable/rose_1" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

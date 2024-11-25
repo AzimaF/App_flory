@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.yourapp.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.florys_app.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="com.example.florys_app.ui.chat.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/navigation_water"
+        android:name="com.example.florys_app.ui.water.WaterFragment"
+        android:label="@string/title_water"
+        tools:layout="@layout/fragment_water" />
+
+    <fragment
+        android:id="@+id/scan"
+        android:label="Scan"
+        tools:layout="@layout/fragment_scan_result">
+        <action android:id="@+id/navigate_to_result"
+            app:destination="@id/scan_result"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/scan"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/scan_result"
+        android:name="com.example.florys_app.ui.scan.result.ScanResultFragment"
+        android:label="Scan Result"
+        tools:layout="@layout/fragment_scan_result">
+        <argument android:name="imageUri"
+            app:argType="string"/>
+
+        <argument android:name="keywords"
+            app:argType="string[]"/>
+
+    </fragment>
+</navigation>
